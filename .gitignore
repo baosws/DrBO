@@ -14,7 +14,6 @@ cache/
 *.tmp
 *.pdf
 exps/ckpts/
-*.ipynb
 *.png
 ipynb_checkpoints/
 cache.json
