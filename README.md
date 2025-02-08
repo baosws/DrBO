@@ -32,10 +32,11 @@ Please see our [demo](demo.ipynb) for how to use our method.
 If you find our study helpful, please consider citing us as:
 
 ```
-@article{duong2025causal,
+@inproceedings{
+    duong2025causal,
     title={Causal Discovery via Bayesian Optimization},
     author={Bao Duong and Sunil Gupta and Thin Nguyen},
-    journal={arXiv preprint arXiv:2501.14997},
-    year={2025},
+    booktitle={Proceedings of the International Conference on Learning Representations},
+    year={2025}
 }
 ```
