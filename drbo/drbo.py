@@ -125,7 +125,8 @@ def DrBO(
 
             logger.add(test_rmse=rmse, test_r2=r2)
 
-            logger(f'GT={gt_score:.6f}')
+            if gt_score is not None:
+                logger(f'GT={gt_score:.6f}')
             n_evals += batch_size
             logger.set_step(n_evals)
             model.add_data(next_zs, next_dags, true_scores)
